@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1C4E9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/espiner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/naranjapaloma"
+
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img" />
+
+    <EditText
+        android:id="@+id/uwu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="uwu name please"
+        android:inputType="textPersonName"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="275dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#78909C"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_uwu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+            <Button
+                android:id="@+id/btn_uwu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+            <Button
+                android:id="@+id/btn_uwu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+            <Button
+                android:id="@+id/btn_uwu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+            <Button
+                android:id="@+id/btn_uwu4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+            <Button
+                android:id="@+id/btn_uwu5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+            <Button
+                android:id="@+id/btn_uwu6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+
+            <Button
+                android:id="@+id/btn_uwu7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="press here for uwu" />
+
+        </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
